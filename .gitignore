@@ -1,0 +1,14 @@
+# Ignore Python temporary files
+__pycache__/
+*.pyc
+
+# Ignore local environment settings
+.env
+.venv/
+
+# Ignore large data files (don't upload 1GB of data to GitHub)
+data/*.csv
+data/*.npy
+
+# Ignore VS Code settings
+.vscode/
